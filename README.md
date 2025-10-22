@@ -1,7 +1,59 @@
-Simultaneous Wireless Power Transfer and Near Field Communication.
+# Simultaneous Wireless Power Transfer and Near Field Communication (WPT + NFC)
 
-Este trabajo de grado presenta el diseño e implementación de un sistema capaz de integrar la transferencia inalámbrica de energía (WPT) y la comunicación por campo cercano (NFC) en la plataforma PhenoAgro, utilizada para la fenotipificación de cultivos en entornos agrícolas. Este trabajo de grado nace de la necesidad de sustituir el actual sistema de comunicación y potencia de la estación de PhenoAgro que funciona mediante pines metálicos, el cual presenta problemas de durabilidad y confiabilidad bajo condiciones ambientales adversas. La solución propuesta permite transmitir energía y datos de manera simultánea entre módulos mediante acoplamiento inductivo, reduciendo la vulnerabilidad mecánica y aumentando la robustez del sistema. El desarrollo incluye la implementación de inductores aptos para Transmisión de potencia inalámbrica (WPT) y Comunicación por Campo cercano (NFC), considerando factores como coeficiente de acoplamiento, factor de calidad, Skin effect y efecto proximidad, junto con un protocolo NFC para garantizar una comunicación estable. Además, se detalla el proceso de diseño e implementación de circuitos de compensación, inversores Clase E y rectificadores de alta eficiencia. Finalmente, Se realizaron simulaciones y validaciones experimentales que demuestran la viabilidad del sistema, alcanzando niveles de eficiencia superiores al 50 % en la transferencia de potencia del sistema completo con todas sus etapas. Esta propuesta contribuye a mejorar la robustez, confiabilidad y sostenibilidad de sistemas IoT aplicados en la agricultura de precisión en ambientes extremos.
+Este repositorio contiene los archivos de diseño electrónico y PCB del proyecto **“Simultaneous Wireless Power Transfer and Near Field Communication”**, desarrollado como trabajo de grado para la **Pontificia Universidad Javeriana Cali**.
 
+---
+
+## Descripción del proyecto
+
+Este trabajo de grado presenta el diseño e implementación de un sistema capaz de integrar la **transferencia inalámbrica de energía (WPT)** y la **comunicación por campo cercano (NFC)** en la plataforma **PhenoAgro**, utilizada para la fenotipificación de cultivos en entornos agrícolas.
+
+La propuesta surge ante la necesidad de **reemplazar el sistema actual de conexión metálica**, que presenta problemas de durabilidad y confiabilidad bajo condiciones ambientales adversas.  
+El nuevo diseño permite **transmitir energía y datos de manera simultánea mediante acoplamiento inductivo**, reduciendo la vulnerabilidad mecánica y aumentando la robustez del sistema.
+
+---
+
+## Características principales
+
+- **Integración WPT + NFC:** Comunicación y transferencia de potencia simultánea mediante acoplamiento inductivo.  
+- **Diseño electromagnético optimizado:** Se consideraron parámetros como coeficiente de acoplamiento, factor de calidad, *skin effect* y efecto proximidad.  
+- **Circuitos de potencia eficientes:** Implementación de compensaciones, inversores Clase E y rectificadores de alta eficiencia.  
+- **Simulación y validación:** Análisis mediante herramientas SPICE y HFSS con resultados experimentales superiores al **50 % de eficiencia** en transferencia de potencia total.  
+- **Aplicación práctica:** Compatible con sistemas IoT agrícolas y entornos de alta exigencia ambiental.  
+
+---
+
+## Herramientas y tecnologías utilizadas
+
+- **Diseño de PCB:** KiCad  
+- **Simulación electromagnética:** Ansys HFSS  
+- **Simulación de circuitos:** LTSpice / Qspice  
+- **Lenguajes de programación:** Python, C  
+- **Otros:** ADS, MATLAB  
+
+---
+
+## Imágenes del proyecto
+
+### Prototipo funcional  
 ![Prototipo](https://github.com/user-attachments/assets/abc74fc5-2a2a-4aab-b4e1-cb98b78a40ae)
 
+### Diseño de PCB  
 ![Diseño PCB](./pcb.png)
+
+---
+
+## Documentación
+El informe completo y las simulaciones detalladas del proyecto se encuentran disponibles en el repositorio o pueden ser consultadas bajo solicitud.
+
+---
+
+## Autor
+
+**Jair Andrés Narváez Chamorro**  
+Ingeniero Electrónico — Pontificia Universidad Javeriana Cali  
+📧 [jairandresnar@gmail.com](mailto:jairandresnar@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/jair-andr%C3%A9s-narv%C3%A9z-chamorro-251324247/) | [GitHub](https://github.com/jairnarvaez)
+
+---
+
