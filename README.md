@@ -13,6 +13,16 @@ El nuevo diseño permite **transmitir energía y datos de manera simultánea med
 
 ---
 
+## Imágenes del proyecto
+
+### Prototipo funcional  
+![Prototipo](https://github.com/user-attachments/assets/abc74fc5-2a2a-4aab-b4e1-cb98b78a40ae)
+
+### Diseño de PCB  
+![Diseño PCB](./pcb.png)
+
+---
+
 ## Características principales
 
 - **Integración WPT + NFC:** Comunicación y transferencia de potencia simultánea mediante acoplamiento inductivo.  
@@ -30,16 +40,6 @@ El nuevo diseño permite **transmitir energía y datos de manera simultánea med
 - **Simulación de circuitos:** LTSpice / Qspice  
 - **Lenguajes de programación:** Python, C  
 - **Otros:** ADS, MATLAB  
-
----
-
-## Imágenes del proyecto
-
-### Prototipo funcional  
-![Prototipo](https://github.com/user-attachments/assets/abc74fc5-2a2a-4aab-b4e1-cb98b78a40ae)
-
-### Diseño de PCB  
-![Diseño PCB](./pcb.png)
 
 ---
 
